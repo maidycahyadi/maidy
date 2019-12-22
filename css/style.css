@@ -159,11 +159,9 @@ footer  {
 .documents {
     min-height: 500px;
     background-color: #eee;
-}
+    background-image: url(../img/dok.jpeg);
+    background-size: 50%;
 
-.documents {
-    min-height: 500px;
-    background-color: #eee;
 }
 
 
