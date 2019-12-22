@@ -7,17 +7,17 @@ body    {
 
     margin-bottom: 100px;
     margin-top: 30px;
-    font-family: "Helvetica Neue", sans-serif;  /*Montserrat*/
+    /*font-family: "Helvetica Neue", sans-serif; */ /*Montserrat*/
     font-weight: lighter;
 }
 
 .jumbotron  {
     height: 650px;
-    background-image: url(../img/cover1.jpg);
+    background-image: url(../img/test.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0 -50px;
-    color: #eaeaea;
+    background-position: 0 0px;
+    /*color: #eaeaea;*/
     overflow: hidden;
 }
 
@@ -37,6 +37,16 @@ body    {
     font-family: Montserrat
 }
 
+.about {
+  background-image: url(../img/about.png);
+  background-size: cover;
+}
+
+.portofolio
+{
+  background-image: url(../img/imoan.png);
+  background-size: 60%;
+}
 
 
 .more   {
@@ -65,15 +75,23 @@ body    {
     
 }
 
-.bawah  {
+/*.gamm  {
     position: relative;
     top : 360px;
     text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
     color: #f0f0ef;
     text-decoration: none;
+    border: 0px;
+
+}*/
+.bawah  {
+    position: relative;
+    top : 360px;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    color: black;
+    text-decoration: none;
 
 }
-
 
 hr {
     width: 250px;
@@ -139,7 +157,12 @@ footer  {
 }
 
 .documents {
-    min-height: 1100px;
+    min-height: 500px;
+    background-color: #eee;
+}
+
+.documents {
+    min-height: 500px;
     background-color: #eee;
 }
 
@@ -156,7 +179,12 @@ footer p    {
 
 .skills {
     background-color: #eee;
+    background-image: url(../img/hkh.jpeg);
+  background-size: cover;
+
 }
+
+
 
 #skills {
   border-radius: 0;
@@ -213,34 +241,34 @@ footer p    {
 
 #two {
   height: 1em;
-  width: 70%;
+  width: 50%;
   background: #2D2D2D;
   display: block;
 }
 
 #three {
   height: 1em;
-  width: 50%;
+  width: 53%;
   background: #2D2D2D;
   display: block;
 }
 
 #four {
   height: 1em;
-  width: 40%;
+  width: 63%;
   background: #2D2D2D;
   display: block;
 }
 
 #five {
   height: 1em;
-  width: 30%;
+  width: 45%;
   background: #2D2D2D;
   display: block;  
 }
 #six {
   height: 1em;
-  width: 60%;
+  width: 50%;
   background: #2D2D2D;
   display: block;  
   
